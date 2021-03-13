@@ -10,8 +10,8 @@ export default function Forecast({ data }) {
     let day = weekday(data.weekday)
     return (
         <View style={styles.container}>
-            <Text style={styles.date}> {data.date}</Text>
-            <Text style={styles.date}>{day.name}</Text>
+            <Text style={styles.date}>{data.date}</Text>
+            <Text style={styles.date}>{day.nome}</Text>
 
 
             <Ionicons name={icon.name} color={icon.color} size={30} />

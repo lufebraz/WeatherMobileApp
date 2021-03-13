@@ -1,40 +1,79 @@
 export function weekday(weekday) {
     switch (weekday) {
+        case 'Seg':
+            return day = {
+                nome: 'Segunda'
+            };
+            break;
+        case 'Ter':
+            return day = {
+                nome: 'Terça'
+            };
+            break;
+        case 'Qua':
+            return day = {
+                nome: 'Quarta'
+            };
+            break;
+        case 'Qui':
+            return day = {
+                nome: 'Quinta'
+            };
+            break;
+        case 'Sex':
+            return day = {
+                nome: 'Sexta'
+            };
+            break;
+        case 'Sáb':
+            return day = {
+                nome: 'Sábado'
+            };
+            break;
+        case 'Dom':
+            return day = {
+                nome: 'Domingo'
+            };
+            break;
         case 'Mon':
             return day = {
-                name: 'Monday'
+                nome: 'Segunda'
             };
             break;
         case 'Tue':
             return day = {
-                name: 'Tuesday'
+                nome: 'Terça'
             };
             break;
         case 'Wed':
             return day = {
-                name: 'Wednesday'
+                nome: 'Quarta'
             };
             break;
         case 'Thu':
             return day = {
-                name: 'Thursday'
+                nome: 'Quinta'
             };
             break;
         case 'Fri':
             return day = {
-                name: 'Friday'
+                nome: 'Sexta'
             };
             break;
         case 'Sat':
             return day = {
-                name: 'Saturday'
+                nome: 'Sábado'
             };
             break;
         case 'Sun':
             return day = {
-                name: 'Sunday'
+                nome: 'Domingo'
             };
             break;
-        
+        default:
+            return day = {
+                nome: 'weekday'
+            };
+
     }
 }
